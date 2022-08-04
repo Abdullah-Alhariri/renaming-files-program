@@ -41,7 +41,7 @@ def getOptions():
 def formatFilename(fileName):
     options = getOptions()
     for key, value in options.items():
-        fileName.replace(key, value)
+        fileName = fileName.replace(key, value)
     return fileName
 
 for dir_path, dirnames, files in os.walk(f"{dirPath}/{fromFolder}"): 
