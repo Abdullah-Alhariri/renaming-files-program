@@ -30,7 +30,7 @@
 ## Usage
 
 ```console
- python rename old_folder_files new_folder
+python rename.py old_folder_files new_folder
     Usage: python rename.py <from folder> <new folder>
 ```
 
