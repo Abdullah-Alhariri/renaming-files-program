@@ -29,7 +29,7 @@
 
 ## Usage
 
-In the "options.json" you can find options. Here you can assign the key for whatever you want to replace it with (value)
+In the [options.json](https://github.com/Abdullah-Alhariri/renaming-files-program/blob/main/options.json) you can find options. Here you can assign the key for whatever you want to replace it with (value)
 
 ```console
 {
