@@ -33,7 +33,6 @@ if os.path.isdir(f"{dirPath}/{toFolder}"):
 os.mkdir(f"{dirPath}/{toFolder}")
 
 # 4) Saving every file in toFolder folder   
-
 def getOptions(): 
     info = open('options.json',)
     result =  json.load(info)
