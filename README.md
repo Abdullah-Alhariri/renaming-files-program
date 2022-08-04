@@ -24,10 +24,22 @@
  cd renaming-files-program
 
 # install the requirements
- python3 -m pip install -r requirements.txt
+ python -m pip install -r requirements.txt
 ```
 
 ## Usage
+
+In the "options.json" you can find options. Here you can assign the key for whatever you want to replace it with (value)
+
+```console
+{
+  " ": "_",
+  "(": "_",
+  ")": "_"
+}
+```
+
+This is how you would type a command. old_folder_files is where all the files stored that you want to rename. The program will automatically copy those files and store them in a new folder("new_folder"), then it will start with renaming the files inside the new_folder
 
 ```console
 python rename.py old_folder_files new_folder
