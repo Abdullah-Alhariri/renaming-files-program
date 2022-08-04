@@ -11,8 +11,6 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#usage">Usage</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#docker-notes">Docker Notes</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contributing">Contributing</a>
 </p>
 
@@ -20,19 +18,19 @@
 
 ```console
 # clone the repo
-$ git clone https://github.com/Abdullah-Alhariri/renaming-files-program.git
+ git clone https://github.com/Abdullah-Alhariri/renaming-files-program.git
 
 # change the working directory to renaming-files-program
-$ cd renaming-files-program
+ cd renaming-files-program
 
 # install the requirements
-$ python3 -m pip install -r requirements.txt
+ python3 -m pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```console
-$ python rename old_folder_files new_folder
+ python rename old_folder_files new_folder
     Usage: python rename.py <from folder> <new folder>
 ```
 
