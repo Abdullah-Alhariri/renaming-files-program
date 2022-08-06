@@ -33,15 +33,28 @@ if os.path.isdir(f"{dirPath}/{toFolder}"):
 os.mkdir(f"{dirPath}/{toFolder}")
 
 # 4) Saving every file in toFolder folder   
-def getOptions(): 
-    info = open('options.json',)
-    result =  json.load(info)
+def getOptions(block): 
+    info = open('options.json')
+    result =  json.load(info)[block]
     return result
 
 def formatFilename(fileName):
-    options = getOptions()
-    for key, value in options.items():
+    charOptions = getOptions('charOptions')
+    case = getOptions('case')
+
+    for key, value in charOptions.items():
         fileName = fileName.replace(key, value)
+
+    match case:
+        case 'lower': 
+            fileName = fileName.lower()
+        case 'upper': 
+            fileName = fileName.upper()
+        case 'title': 
+            fileName = fileName.title() 
+        case 'capitalize': 
+            fileName = fileName.capitalize()
+            
     return fileName
 
 for dir_path, dirnames, files in os.walk(f"{dirPath}/{fromFolder}"): 
