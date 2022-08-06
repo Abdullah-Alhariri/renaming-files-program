@@ -1,10 +1,10 @@
 <p align=center>
   <h2 align="center"> renaming-files-program </h2>
 </p>
-
-<p align="center">
- <a  align="center" target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/python-%3E=_3.10.5-green.svg"></a>
+<p align=center>
+renaming-files-program is a very simple python program that can "decode" <br>file names and store them else where! With the options that you give it.
 </p>
+
 
 <p align="center">
   <a href="#installation">Installation</a>
@@ -12,6 +12,10 @@
   <a href="#usage">Usage</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contributing">Contributing</a>
+</p>
+
+<p align="center">
+ <a  align="center" target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/python-%3E=_3.10.5-green.svg"></a>
 </p>
 
 ## Installation
